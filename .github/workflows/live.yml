@@ -14,5 +14,5 @@ jobs:
         server: ftp.curatedgallery.org
         username: ftpprocotol@hp.curatedgallery.org
         password: ${{ secrets.FTP_PASSWORD }}
-        remote_path: '/home/ashfaqahmed/www.curatedgallery.org'
+        
         server-dir: '/home/ashfaqahmed/curatedgallery.org/ftplive'
