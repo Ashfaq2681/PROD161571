@@ -4,7 +4,6 @@ Push:
 branches:
 - Main
 jobs:
-FTP-Deploy-Action
 runs-on: ubuntu-latest
 steps:
 -uses: actions/checkout@2.1.0
