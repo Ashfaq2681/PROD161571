@@ -1,10 +1,20 @@
-name: First Workflow
-on: workflow_dispatch
+name: Publish Website to CPanel
+on:
+Push:
+branches:
+-Main
 jobs:
-  first-job:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Print greeting
-      run: echo "Hello world"
-    - name: Good bye
-      run: echo "This job step is over, Bye bye.!"
+FTP-Deploy-Action:
+name: FTP-Deploy-Action
+runs-on: ubuntu-latest
+steps:
+-uses: actions/checkout@2.1.0
+with:
+fecth-depth: 2
+-name: FTP-Deploy-Aciton
+uses: SamKirkland/FTP-Deploy-Action@3.1.1
+
+with:
+ftp-server: ${{ ftp.curatedgallery.org }}
+ftp-username: ${{ ashfaqahmed@hp.curatedgallery.org }}
+ftp-password: ${{ AFr]5!d4lvaY }}
