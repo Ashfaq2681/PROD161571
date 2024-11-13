@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp.curatedgallery.org
-        username: ftpprocotol@hp.curatedgallery.org
+        username: sftplive@curatedgallery.org
         password: ${{ secrets.SFTP_PASSWORD }}
         
         server-dir: '/home/ashfaqahmed/curatedgallery.org/'
