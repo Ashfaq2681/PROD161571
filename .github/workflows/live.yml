@@ -1,6 +1,5 @@
 on: push
 name:  Deploy website on push
-branch: live
 jobs:
   web-deploy:
     name:  Deploy
@@ -15,5 +14,5 @@ jobs:
         server: ftp.curatedgallery.org
         username: ftpprocotol@hp.curatedgallery.org
         password: ${{ secrets.FTP_PASSWORD }}
-        remote-path: '/home/ashfaqahmed/curatedgallery.org/ftplive'
+        remote_path: '/home/ashfaqahmed/www.curatedgallery.org'
         local-path: '/home/ashfaqahmed/curatedgallery.org/ftplive'
