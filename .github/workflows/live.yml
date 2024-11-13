@@ -1,4 +1,4 @@
-on: push
+ on: push
 name:  Deploy website on push
 jobs:
   web-deploy:
@@ -15,4 +15,4 @@ jobs:
         username: sftplive@curatedgallery.org
         password: ${{ secrets.SFTP_PASSWORD }}
         
-        server-dir: '/home/ashfaqahmed/curatedgallery.org/'
+        server-dir: '/curatedgallery.org/'
