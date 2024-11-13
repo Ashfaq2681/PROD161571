@@ -15,4 +15,4 @@ jobs:
         username: ftp.curatedgallery.org
         password: ${{ secrets.FTP_PASSWORDLIVE }}
         
-        server-dir: '/curatedgallery.org/'
+        server-dir: '/home/ashfaqahmed/curatedgallery.org/'
