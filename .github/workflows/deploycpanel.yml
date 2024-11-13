@@ -13,4 +13,4 @@ jobs:
       with:
         server: ashfaqahmed@hp.curatedgallery.org
         username: AFr]5!d4lvaY
-        password: ${{ ftp.curatedgallery.org }}
+        password: ftp.curatedgallery.org
