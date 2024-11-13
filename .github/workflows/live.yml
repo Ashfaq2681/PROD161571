@@ -11,8 +11,8 @@ jobs:
     - name:  Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.curatedgallery.org
-        username: ftpprocotol@hp.curatedgallery.org
-        password: ${{ secrets.FTP_PASSWORD }}
+        server: sftplive@curatedgallery.org
+        username: ftp.curatedgallery.org
+        password: ${{ secrets.FTP_PASSWORDLIVE }}
         
         server-dir: '/curatedgallery.org/'
