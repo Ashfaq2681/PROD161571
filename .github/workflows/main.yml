@@ -1,0 +1,7 @@
+- name: Run martinkukolos/action-ftp-deployment@v1
+    uses: martinkukolos/action-ftp-deployment@v1
+    with:
+      ftp-server: 'ftp://server.tld'
+      ftp-user: 'user'
+      ftp-password: 'pa$$word'
+      source-folder: './path/to/folder'
