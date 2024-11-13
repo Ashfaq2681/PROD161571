@@ -1,7 +1,6 @@
 on: push
 name:  Deploy website on push
-branches:
-        live
+branch: live
 jobs:
   web-deploy:
     name:  Deploy
