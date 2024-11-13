@@ -12,7 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp.curatedgallery.org
-        username: ftpprocotol@hp.curatedgallery.org
-        password: ${{ secrets.FTP_PASSWORD }}
-        remote-path: '/home/ashfaqahmed/curatedgallery.org'
-        local-path: '/home/ashfaqahmed/curatedgallery.org'
+        username: dashboard@dashboard.curatedgallery.org
+        password: ${{ secrets.FTP_PASSWORDLIVEDASHBOARD }}
